@@ -1,0 +1,190 @@
+#nav_menu ul {
+list-style-type: none;
+font-family:Kristen ITC;
+text-decoration:italic;
+}
+#nav_menu ul li {
+float: left;
+font-family:Kristen ITC;
+text-decoration:italic;
+}
+#nav_menu ul li button{
+text-align: center;
+display: block;
+width: 140px;
+height:80px;
+padding: 8px 0;
+text-decoration: none;
+background-color: blue;
+color: white;
+font-weight: bold;
+border-right: 2px solid white;
+font-size:20px;
+font-family:Kristen ITC;
+text-decoration:italic;
+}
+#grad1 {
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);}
+#nav_menu ul li a.lastitem{
+border-right: none;
+}
+#nav_menu ul li a.current {
+color: yellow;
+}
+h1{
+	margin-left:5%;
+margin-top:1%;
+position:absolute;
+color:yellow;
+font-size:50px;
+font-family:Harlow Solid;
+text-decoration:italic;}
+h2
+{
+	margin-left:5%;
+margin-top:1%;
+position:absolute;
+color:yellow;
+font-size:50px;
+font-family:Harlow Solid;
+text-decoration:italic;
+}
+
+h2{
+	margin-left:40%;
+margin-top:1%;
+position:absolute;
+color:red;
+font-size:50px;
+font-family:Kristen ITC;
+text-decoration:italic;}
+
+h3{
+
+color:aliceblue;
+font-size:30px;
+font-family:jokerman;	}
+#nav_menuv ul {
+list-style-type: none;
+}
+h4{
+margin-left:6%;
+margin-top:8%;
+position:absolute;
+color:green;
+font-size:30px;
+font-family:jokerman;	}
+#nav_menuv ul {
+list-style-type: none;
+}
+
+
+#nav_menuv button{
+text-align: center;
+display: block;
+width: 130px;
+height:80px;
+padding: 0px 0;
+text-decoration: none;
+background-color: blue;
+color: white;
+font-weight: bold;
+border-right: 2px solid white;
+font-size:20px;
+.button1:hover{
+background-color:black;}
+.button2:hover{
+background-color:black;}.button3:hover{
+background-color:black;}.button4:hover{
+background-color:black;}.button5:hover{
+background-color:black;}.button6:hover{
+background-color:black;}}
+}
+#nav_menuv ul li a.lastitem{
+border-right: none;
+}
+#nav_menuv ul li a.current {
+color: yellow;
+}
+#icon img:hover{
+	height:60px;
+width:60px;}
+td,footer{
+color:orange;
+height:100px;
+width:300px;
+font-size:40px;}
+#size button:hover{
+	background-color:black;
+	height:200px;
+width:200px;}
+li:hover{
+background-color:green;
+color:red;
+font-family:jokerman;
+font-size:50px;}
+ul li button:hover{
+	background-color:black;
+	font-family:jokerman;
+font-size:40px;}
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+} 
